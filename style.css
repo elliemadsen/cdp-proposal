@@ -1,0 +1,189 @@
+body {
+  margin: 0;
+  background: #000;
+  color: #ffffff;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 10;
+  overflow: hidden;
+}
+
+#modules {
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  position: relative;
+}
+
+.module {
+  height: 100vh;
+  width: 100vw;
+  overflow-y: auto;
+  box-sizing: border-box;
+  padding: 60px 80px 60px 120px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: transform 0.7s cubic-bezier(0.77, 0, 0.18, 1), opacity 0.5s;
+  opacity: 0;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.module.active {
+  opacity: 1;
+  pointer-events: auto;
+  z-index: 2;
+  transform: translateY(0);
+}
+
+.module.above {
+  transform: translateY(-100vh);
+}
+
+.module.below {
+  transform: translateY(100vh);
+}
+
+h1,
+h2,
+h3,
+h4 {
+  margin: 0 0 20px 0;
+  font-weight: 100;
+}
+
+h1.xl {
+  font-size: 64px;
+  line-height: 1.2;
+}
+
+h1.xxl {
+  font-size: 100px;
+  line-height: 1.2;
+}
+
+h1.title {
+  font-size: 300px;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 20vh;
+  width: 100%;
+}
+
+.center {
+  text-align: center;
+  width: 100%;
+}
+
+.right-align {
+  text-align: right;
+}
+
+.bottom-right {
+  position: fixed;
+  right: 6vw;
+  bottom: 10vh;
+  left: auto;
+  top: auto;
+}
+
+/* scroll bar */
+
+#vertical-bar {
+  position: fixed;
+  right: 20px;
+  top: 20px;
+  bottom: 20px;
+  width: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 100;
+}
+
+#progress-track {
+  position: relative;
+  width: 100%;
+  height: calc(100%);
+  background: rgb(142, 142, 142);
+  border-radius: 20px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  overflow: hidden;
+  cursor: pointer;
+  user-select: none;
+}
+
+#progress-indicator {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 20px;
+  height: 120px;
+  background: radial-gradient(
+    circle,
+    rgba(255, 255, 255, 0.95) 55%,
+    rgba(255, 255, 255, 0.5) 75%,
+    rgba(255, 255, 255, 0.15) 95%,
+    transparent 100%
+  );
+  border-radius: 50%;
+  box-shadow: 0 0 18px 8px rgba(0, 0, 0, 0.25), 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: top 0.5s cubic-bezier(0.77, 0, 0.18, 1);
+  top: 0;
+  border: none;
+  cursor: grab;
+  user-select: none;
+}
+
+/* -------- network graph --------*/
+
+#graph {
+  width: 80vw;
+  height: 80vh;
+}
+
+.node circle {
+  stroke: #fff;
+  stroke-width: 1.5px;
+  cursor: pointer;
+  transition: stroke 0.2s;
+}
+.node text {
+  font-size: 16px;
+  font-weight: 600;
+  pointer-events: none;
+  fill: #222;
+  text-shadow: none;
+  dominant-baseline: middle;
+  text-anchor: middle;
+  alignment-baseline: middle;
+}
+.link {
+  stroke: #aaa;
+  stroke-width: 3px;
+}
+.node.person circle {
+  fill: #e4f6e2;
+}
+.node.institution circle {
+  fill: #ffedce;
+}
+.node.field circle {
+  fill: #ffffff;
+}
+.node.contribution circle {
+  fill: #e2fbff;
+}
+.node:hover circle {
+  stroke: rgb(0, 0, 0);
+  stroke-width: 3px;
+}
+
+.node.person text {
+  font-size: 10px;
+}
+
+.node.field text {
+  font-size: 24px;
+}

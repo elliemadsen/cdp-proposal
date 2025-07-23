@@ -1,0 +1,1511 @@
+{
+  "nodes": [
+    {
+      "id": "Leonhard Euler",
+      "type": "person"
+    },
+    {
+      "id": "first theorem of graph theory",
+      "type": "contribution"
+    },
+    {
+      "id": "Math",
+      "type": "field"
+    },
+    {
+      "id": "Graph Theory",
+      "type": "field"
+    },
+    {
+      "id": "\u00c9mile Durkheim",
+      "type": "person"
+    },
+    {
+      "id": "Gabriel Tarde",
+      "type": "person"
+    },
+    {
+      "id": "social network theory",
+      "type": "contribution"
+    },
+    {
+      "id": "Sociology",
+      "type": "field"
+    },
+    {
+      "id": "Warren McCulloch",
+      "type": "person"
+    },
+    {
+      "id": "Walter Pitts",
+      "type": "person"
+    },
+    {
+      "id": "neural networks",
+      "type": "contribution"
+    },
+    {
+      "id": "MIT",
+      "type": "institution"
+    },
+    {
+      "id": "Neuroscience",
+      "type": "field"
+    },
+    {
+      "id": "Vannevar Bush",
+      "type": "person"
+    },
+    {
+      "id": "Memex",
+      "type": "contribution"
+    },
+    {
+      "id": "Hypertext",
+      "type": "field"
+    },
+    {
+      "id": "Jane Jacobs",
+      "type": "person"
+    },
+    {
+      "id": "The Death and Life of Great American Cities",
+      "type": "contribution"
+    },
+    {
+      "id": "Urbanism",
+      "type": "field"
+    },
+    {
+      "id": "Frank Rosenblatt",
+      "type": "person"
+    },
+    {
+      "id": "perceptron",
+      "type": "contribution"
+    },
+    {
+      "id": "AI",
+      "type": "field"
+    },
+    {
+      "id": "Machine Learning",
+      "type": "field"
+    },
+    {
+      "id": "Marshall McLuhan",
+      "type": "person"
+    },
+    {
+      "id": "global village",
+      "type": "contribution"
+    },
+    {
+      "id": "the medium is the message",
+      "type": "contribution"
+    },
+    {
+      "id": "University of Toronto",
+      "type": "institution"
+    },
+    {
+      "id": "Media Theory",
+      "type": "field"
+    },
+    {
+      "id": "Ted Nelson",
+      "type": "person"
+    },
+    {
+      "id": "Xanadu",
+      "type": "contribution"
+    },
+    {
+      "id": "hypertext",
+      "type": "contribution"
+    },
+    {
+      "id": "Christopher Alexander",
+      "type": "person"
+    },
+    {
+      "id": "A City is Not a Tree",
+      "type": "contribution"
+    },
+    {
+      "id": "UC Berkeley",
+      "type": "institution"
+    },
+    {
+      "id": "Andries van Dam",
+      "type": "person"
+    },
+    {
+      "id": "Hypertext Editing System",
+      "type": "contribution"
+    },
+    {
+      "id": "Brown University",
+      "type": "institution"
+    },
+    {
+      "id": "packet switching",
+      "type": "contribution"
+    },
+    {
+      "id": "U.S. Dept. of Defense",
+      "type": "institution"
+    },
+    {
+      "id": "WWW",
+      "type": "field"
+    },
+    {
+      "id": "Elizabeth Fisher",
+      "type": "person"
+    },
+    {
+      "id": "Carrier Bag Theory of Evolution",
+      "type": "contribution"
+    },
+    {
+      "id": "Feminist Theory",
+      "type": "field"
+    },
+    {
+      "id": "Bill Hillier",
+      "type": "person"
+    },
+    {
+      "id": "space syntax",
+      "type": "contribution"
+    },
+    {
+      "id": "UCL",
+      "type": "institution"
+    },
+    {
+      "id": "Neil Postman",
+      "type": "person"
+    },
+    {
+      "id": "media ecology",
+      "type": "contribution"
+    },
+    {
+      "id": "NYU",
+      "type": "institution"
+    },
+    {
+      "id": "Nicholas Negroponte",
+      "type": "person"
+    },
+    {
+      "id": "MIT Media Lab",
+      "type": "contribution"
+    },
+    {
+      "id": "MIT Architecture Machine Group",
+      "type": "institution"
+    },
+    {
+      "id": "Computational Design",
+      "type": "field"
+    },
+    {
+      "id": "Tim Berners-Lee",
+      "type": "person"
+    },
+    {
+      "id": "ENQUIRE",
+      "type": "contribution"
+    },
+    {
+      "id": "CERN",
+      "type": "institution"
+    },
+    {
+      "id": "Bruno Latour",
+      "type": "person"
+    },
+    {
+      "id": "actor network theory",
+      "type": "contribution"
+    },
+    {
+      "id": "Kevin Lynch",
+      "type": "person"
+    },
+    {
+      "id": "mental maps",
+      "type": "contribution"
+    },
+    {
+      "id": "Ursula K. Le Guin",
+      "type": "person"
+    },
+    {
+      "id": "Carrier Bag Theory of Fiction",
+      "type": "contribution"
+    },
+    {
+      "id": "Speculative Fiction",
+      "type": "field"
+    },
+    {
+      "id": "HyperCard",
+      "type": "contribution"
+    },
+    {
+      "id": "Apple",
+      "type": "institution"
+    },
+    {
+      "id": "ArcGIS",
+      "type": "contribution"
+    },
+    {
+      "id": "ESRI",
+      "type": "institution"
+    },
+    {
+      "id": "Mapping",
+      "type": "field"
+    },
+    {
+      "id": "World Wide Web",
+      "type": "contribution"
+    },
+    {
+      "id": "Michael Benedikt",
+      "type": "person"
+    },
+    {
+      "id": "Cyberspace: First Steps",
+      "type": "contribution"
+    },
+    {
+      "id": "UT Austin",
+      "type": "institution"
+    },
+    {
+      "id": "Architecture",
+      "type": "field"
+    },
+    {
+      "id": "Larry Page",
+      "type": "person"
+    },
+    {
+      "id": "Sergey Brin",
+      "type": "person"
+    },
+    {
+      "id": "PageRank",
+      "type": "contribution"
+    },
+    {
+      "id": "Stanford University",
+      "type": "institution"
+    },
+    {
+      "id": "Sadie Plant",
+      "type": "person"
+    },
+    {
+      "id": "weaving",
+      "type": "contribution"
+    },
+    {
+      "id": "Gilles Deleuze",
+      "type": "person"
+    },
+    {
+      "id": "F\u00e9lix Guattari",
+      "type": "person"
+    },
+    {
+      "id": "rhizome",
+      "type": "contribution"
+    },
+    {
+      "id": "Philosophy",
+      "type": "field"
+    },
+    {
+      "id": "semantic web",
+      "type": "contribution"
+    },
+    {
+      "id": "Semantics",
+      "type": "field"
+    },
+    {
+      "id": "Albert-L\u00e1szl\u00f3 Barab\u00e1si",
+      "type": "person"
+    },
+    {
+      "id": "The New Science of Networks",
+      "type": "contribution"
+    },
+    {
+      "id": "Manuel Castells",
+      "type": "person"
+    },
+    {
+      "id": "network society",
+      "type": "contribution"
+    },
+    {
+      "id": "USC",
+      "type": "institution"
+    },
+    {
+      "id": "Alexander Galloway",
+      "type": "person"
+    },
+    {
+      "id": "Eugene Thacker",
+      "type": "person"
+    },
+    {
+      "id": "New York School of Media Theory",
+      "type": "contribution"
+    },
+    {
+      "id": "The New School",
+      "type": "institution"
+    },
+    {
+      "id": "OpenStreetMap",
+      "type": "contribution"
+    },
+    {
+      "id": "Joshua Tenenbaum",
+      "type": "person"
+    },
+    {
+      "id": "Theory-Based Bayesian Models",
+      "type": "contribution"
+    },
+    {
+      "id": "Cognitive Science",
+      "type": "field"
+    },
+    {
+      "id": "Satoshi Nakamoto",
+      "type": "person"
+    },
+    {
+      "id": "Bitcoin",
+      "type": "contribution"
+    },
+    {
+      "id": "Knowledge Graph",
+      "type": "contribution"
+    },
+    {
+      "id": "Google",
+      "type": "institution"
+    },
+    {
+      "id": "Vector Databases",
+      "type": "field"
+    },
+    {
+      "id": "Tomas Mikolov",
+      "type": "person"
+    },
+    {
+      "id": "word2vec",
+      "type": "contribution"
+    },
+    {
+      "id": "Shannon Mattern",
+      "type": "person"
+    },
+    {
+      "id": "Deep Mapping the Media City",
+      "type": "contribution"
+    },
+    {
+      "id": "FAISS",
+      "type": "contribution"
+    },
+    {
+      "id": "Facebook",
+      "type": "institution"
+    },
+    {
+      "id": "InterPlanetary File System",
+      "type": "contribution"
+    },
+    {
+      "id": "Protocol Labs",
+      "type": "institution"
+    },
+    {
+      "id": "Large Language Models",
+      "type": "contribution"
+    },
+    {
+      "id": "OpenAI",
+      "type": "institution"
+    },
+    {
+      "id": "Patrick Lewis",
+      "type": "person"
+    },
+    {
+      "id": "Retrieval Augmented Generation",
+      "type": "contribution"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Leonhard Euler",
+      "target": "Math",
+      "type": "works_in"
+    },
+    {
+      "source": "first theorem of graph theory",
+      "target": "Math",
+      "type": "categorized_as"
+    },
+    {
+      "source": "Leonhard Euler",
+      "target": "Graph Theory",
+      "type": "works_in"
+    },
+    {
+      "source": "first theorem of graph theory",
+      "target": "Graph Theory",
+      "type": "categorized_as"
+    },
+    {
+      "source": "Leonhard Euler",
+      "target": "first theorem of graph theory",
+      "type": "created"
+    },
+    {
+      "source": "\u00c9mile Durkheim",
+      "target": "Sociology",
+      "type": "works_in"
+    },
+    {
+      "source": "Gabriel Tarde",
+      "target": "Sociology",
+      "type": "works_in"
+    },
+    {
+      "source": "social network theory",
+      "target": "Sociology",
+      "type": "categorized_as"
+    },
+    {
+      "source": "\u00c9mile Durkheim",
+      "target": "social network theory",
+      "type": "created"
+    },
+    {
+      "source": "Gabriel Tarde",
+      "target": "social network theory",
+      "type": "created"
+    },
+    {
+      "source": "Warren McCulloch",
+      "target": "Neuroscience",
+      "type": "works_in"
+    },
+    {
+      "source": "Walter Pitts",
+      "target": "Neuroscience",
+      "type": "works_in"
+    },
+    {
+      "source": "neural networks",
+      "target": "Neuroscience",
+      "type": "categorized_as"
+    },
+    {
+      "source": "Warren McCulloch",
+      "target": "Math",
+      "type": "works_in"
+    },
+    {
+      "source": "Walter Pitts",
+      "target": "Math",
+      "type": "works_in"
+    },
+    {
+      "source": "neural networks",
+      "target": "Math",
+      "type": "categorized_as"
+    },
+    {
+      "source": "Warren McCulloch",
+      "target": "neural networks",
+      "type": "created"
+    },
+    {
+      "source": "Warren McCulloch",
+      "target": "MIT",
+      "type": "affiliated_with"
+    },
+    {
+      "source": "Walter Pitts",
+      "target": "neural networks",
+      "type": "created"
+    },
+    {
+      "source": "Walter Pitts",
+      "target": "MIT",
+      "type": "affiliated_with"
+    },
+    {
+      "source": "MIT",
+      "target": "neural networks",
+      "type": "contributed_to"
+    },
+    {
+      "source": "Vannevar Bush",
+      "target": "Hypertext",
+      "type": "works_in"
+    },
+    {
+      "source": "Memex",
+      "target": "Hypertext",
+      "type": "categorized_as"
+    },
+    {
+      "source": "Vannevar Bush",
+      "target": "Memex",
+      "type": "created"
+    },
+    {
+      "source": "Jane Jacobs",
+      "target": "Urbanism",
+      "type": "works_in"
+    },
+    {
+      "source": "The Death and Life of Great American Cities",
+      "target": "Urbanism",
+      "type": "categorized_as"
+    },
+    {
+      "source": "Jane Jacobs",
+      "target": "The Death and Life of Great American Cities",
+      "type": "created"
+    },
+    {
+      "source": "Frank Rosenblatt",
+      "target": "AI",
+      "type": "works_in"
+    },
+    {
+      "source": "perceptron",
+      "target": "AI",
+      "type": "categorized_as"
+    },
+    {
+      "source": "Frank Rosenblatt",
+      "target": "Machine Learning",
+      "type": "works_in"
+    },
+    {
+      "source": "perceptron",
+      "target": "Machine Learning",
+      "type": "categorized_as"
+    },
+    {
+      "source": "Frank Rosenblatt",
+      "target": "perceptron",
+      "type": "created"
+    },
+    {
+      "source": "Marshall McLuhan",
+      "target": "Media Theory",
+      "type": "works_in"
+    },
+    {
+      "source": "global village",
+      "target": "Media Theory",
+      "type": "categorized_as"
+    },
+    {
+      "source": "the medium is the message",
+      "target": "Media Theory",
+      "type": "categorized_as"
+    },
+    {
+      "source": "Marshall McLuhan",
+      "target": "global village",
+      "type": "created"
+    },
+    {
+      "source": "Marshall McLuhan",
+      "target": "the medium is the message",
+      "type": "created"
+    },
+    {
+      "source": "Marshall McLuhan",
+      "target": "University of Toronto",
+      "type": "affiliated_with"
+    },
+    {
+      "source": "University of Toronto",
+      "target": "global village",
+      "type": "contributed_to"
+    },
+    {
+      "source": "University of Toronto",
+      "target": "the medium is the message",
+      "type": "contributed_to"
+    },
+    {
+      "source": "Ted Nelson",
+      "target": "Hypertext",
+      "type": "works_in"
+    },
+    {
+      "source": "Xanadu",
+      "target": "Hypertext",
+      "type": "categorized_as"
+    },
+    {
+      "source": "hypertext",
+      "target": "Hypertext",
+      "type": "categorized_as"
+    },
+    {
+      "source": "Ted Nelson",
+      "target": "Xanadu",
+      "type": "created"
+    },
+    {
+      "source": "Ted Nelson",
+      "target": "hypertext",
+      "type": "created"
+    },
+    {
+      "source": "Christopher Alexander",
+      "target": "Urbanism",
+      "type": "works_in"
+    },
+    {
+      "source": "A City is Not a Tree",
+      "target": "Urbanism",
+      "type": "categorized_as"
+    },
+    {
+      "source": "Christopher Alexander",
+      "target": "A City is Not a Tree",
+      "type": "created"
+    },
+    {
+      "source": "Christopher Alexander",
+      "target": "UC Berkeley",
+      "type": "affiliated_with"
+    },
+    {
+      "source": "UC Berkeley",
+      "target": "A City is Not a Tree",
+      "type": "contributed_to"
+    },
+    {
+      "source": "Andries van Dam",
+      "target": "Hypertext",
+      "type": "works_in"
+    },
+    {
+      "source": "Hypertext Editing System",
+      "target": "Hypertext",
+      "type": "categorized_as"
+    },
+    {
+      "source": "Andries van Dam",
+      "target": "Hypertext Editing System",
+      "type": "created"
+    },
+    {
+      "source": "Andries van Dam",
+      "target": "Brown University",
+      "type": "affiliated_with"
+    },
+    {
+      "source": "Brown University",
+      "target": "Hypertext Editing System",
+      "type": "contributed_to"
+    },
+    {
+      "source": "packet switching",
+      "target": "WWW",
+      "type": "categorized_as"
+    },
+    {
+      "source": "U.S. Dept. of Defense",
+      "target": "packet switching",
+      "type": "contributed_to"
+    },
+    {
+      "source": "Elizabeth Fisher",
+      "target": "Feminist Theory",
+      "type": "works_in"
+    },
+    {
+      "source": "Carrier Bag Theory of Evolution",
+      "target": "Feminist Theory",
+      "type": "categorized_as"
+    },
+    {
+      "source": "Elizabeth Fisher",
+      "target": "Carrier Bag Theory of Evolution",
+      "type": "created"
+    },
+    {
+      "source": "Bill Hillier",
+      "target": "Urbanism",
+      "type": "works_in"
+    },
+    {
+      "source": "space syntax",
+      "target": "Urbanism",
+      "type": "categorized_as"
+    },
+    {
+      "source": "Bill Hillier",
+      "target": "space syntax",
+      "type": "created"
+    },
+    {
+      "source": "Bill Hillier",
+      "target": "UCL",
+      "type": "affiliated_with"
+    },
+    {
+      "source": "UCL",
+      "target": "space syntax",
+      "type": "contributed_to"
+    },
+    {
+      "source": "Neil Postman",
+      "target": "Media Theory",
+      "type": "works_in"
+    },
+    {
+      "source": "media ecology",
+      "target": "Media Theory",
+      "type": "categorized_as"
+    },
+    {
+      "source": "Neil Postman",
+      "target": "media ecology",
+      "type": "created"
+    },
+    {
+      "source": "Neil Postman",
+      "target": "NYU",
+      "type": "affiliated_with"
+    },
+    {
+      "source": "NYU",
+      "target": "media ecology",
+      "type": "contributed_to"
+    },
+    {
+      "source": "Nicholas Negroponte",
+      "target": "Computational Design",
+      "type": "works_in"
+    },
+    {
+      "source": "MIT Media Lab",
+      "target": "Computational Design",
+      "type": "categorized_as"
+    },
+    {
+      "source": "Nicholas Negroponte",
+      "target": "MIT Media Lab",
+      "type": "created"
+    },
+    {
+      "source": "Nicholas Negroponte",
+      "target": "MIT Architecture Machine Group",
+      "type": "affiliated_with"
+    },
+    {
+      "source": "MIT Architecture Machine Group",
+      "target": "MIT Media Lab",
+      "type": "contributed_to"
+    },
+    {
+      "source": "Tim Berners-Lee",
+      "target": "Hypertext",
+      "type": "works_in"
+    },
+    {
+      "source": "ENQUIRE",
+      "target": "Hypertext",
+      "type": "categorized_as"
+    },
+    {
+      "source": "Tim Berners-Lee",
+      "target": "ENQUIRE",
+      "type": "created"
+    },
+    {
+      "source": "Tim Berners-Lee",
+      "target": "CERN",
+      "type": "affiliated_with"
+    },
+    {
+      "source": "CERN",
+      "target": "ENQUIRE",
+      "type": "contributed_to"
+    },
+    {
+      "source": "Bruno Latour",
+      "target": "Sociology",
+      "type": "works_in"
+    },
+    {
+      "source": "actor network theory",
+      "target": "Sociology",
+      "type": "categorized_as"
+    },
+    {
+      "source": "Bruno Latour",
+      "target": "actor network theory",
+      "type": "created"
+    },
+    {
+      "source": "Kevin Lynch",
+      "target": "Urbanism",
+      "type": "works_in"
+    },
+    {
+      "source": "mental maps",
+      "target": "Urbanism",
+      "type": "categorized_as"
+    },
+    {
+      "source": "Kevin Lynch",
+      "target": "mental maps",
+      "type": "created"
+    },
+    {
+      "source": "Kevin Lynch",
+      "target": "MIT",
+      "type": "affiliated_with"
+    },
+    {
+      "source": "MIT",
+      "target": "mental maps",
+      "type": "contributed_to"
+    },
+    {
+      "source": "Ursula K. Le Guin",
+      "target": "Speculative Fiction",
+      "type": "works_in"
+    },
+    {
+      "source": "Carrier Bag Theory of Fiction",
+      "target": "Speculative Fiction",
+      "type": "categorized_as"
+    },
+    {
+      "source": "Ursula K. Le Guin",
+      "target": "Feminist Theory",
+      "type": "works_in"
+    },
+    {
+      "source": "Carrier Bag Theory of Fiction",
+      "target": "Feminist Theory",
+      "type": "categorized_as"
+    },
+    {
+      "source": "Ursula K. Le Guin",
+      "target": "Carrier Bag Theory of Fiction",
+      "type": "created"
+    },
+    {
+      "source": "HyperCard",
+      "target": "Hypertext",
+      "type": "categorized_as"
+    },
+    {
+      "source": "Apple",
+      "target": "HyperCard",
+      "type": "contributed_to"
+    },
+    {
+      "source": "ArcGIS",
+      "target": "Mapping",
+      "type": "categorized_as"
+    },
+    {
+      "source": "ESRI",
+      "target": "ArcGIS",
+      "type": "contributed_to"
+    },
+    {
+      "source": "Tim Berners-Lee",
+      "target": "WWW",
+      "type": "works_in"
+    },
+    {
+      "source": "World Wide Web",
+      "target": "WWW",
+      "type": "categorized_as"
+    },
+    {
+      "source": "Tim Berners-Lee",
+      "target": "Hypertext",
+      "type": "works_in"
+    },
+    {
+      "source": "World Wide Web",
+      "target": "Hypertext",
+      "type": "categorized_as"
+    },
+    {
+      "source": "Tim Berners-Lee",
+      "target": "World Wide Web",
+      "type": "created"
+    },
+    {
+      "source": "Tim Berners-Lee",
+      "target": "CERN",
+      "type": "affiliated_with"
+    },
+    {
+      "source": "CERN",
+      "target": "World Wide Web",
+      "type": "contributed_to"
+    },
+    {
+      "source": "Michael Benedikt",
+      "target": "Architecture",
+      "type": "works_in"
+    },
+    {
+      "source": "Cyberspace: First Steps",
+      "target": "Architecture",
+      "type": "categorized_as"
+    },
+    {
+      "source": "Michael Benedikt",
+      "target": "Cyberspace: First Steps",
+      "type": "created"
+    },
+    {
+      "source": "Michael Benedikt",
+      "target": "UT Austin",
+      "type": "affiliated_with"
+    },
+    {
+      "source": "UT Austin",
+      "target": "Cyberspace: First Steps",
+      "type": "contributed_to"
+    },
+    {
+      "source": "Larry Page",
+      "target": "Hypertext",
+      "type": "works_in"
+    },
+    {
+      "source": "Sergey Brin",
+      "target": "Hypertext",
+      "type": "works_in"
+    },
+    {
+      "source": "PageRank",
+      "target": "Hypertext",
+      "type": "categorized_as"
+    },
+    {
+      "source": "Larry Page",
+      "target": "Graph Theory",
+      "type": "works_in"
+    },
+    {
+      "source": "Sergey Brin",
+      "target": "Graph Theory",
+      "type": "works_in"
+    },
+    {
+      "source": "PageRank",
+      "target": "Graph Theory",
+      "type": "categorized_as"
+    },
+    {
+      "source": "Larry Page",
+      "target": "WWW",
+      "type": "works_in"
+    },
+    {
+      "source": "Sergey Brin",
+      "target": "WWW",
+      "type": "works_in"
+    },
+    {
+      "source": "PageRank",
+      "target": "WWW",
+      "type": "categorized_as"
+    },
+    {
+      "source": "Larry Page",
+      "target": "PageRank",
+      "type": "created"
+    },
+    {
+      "source": "Larry Page",
+      "target": "Stanford University",
+      "type": "affiliated_with"
+    },
+    {
+      "source": "Sergey Brin",
+      "target": "PageRank",
+      "type": "created"
+    },
+    {
+      "source": "Sergey Brin",
+      "target": "Stanford University",
+      "type": "affiliated_with"
+    },
+    {
+      "source": "Stanford University",
+      "target": "PageRank",
+      "type": "contributed_to"
+    },
+    {
+      "source": "Sadie Plant",
+      "target": "Media Theory",
+      "type": "works_in"
+    },
+    {
+      "source": "weaving",
+      "target": "Media Theory",
+      "type": "categorized_as"
+    },
+    {
+      "source": "Sadie Plant",
+      "target": "Feminist Theory",
+      "type": "works_in"
+    },
+    {
+      "source": "weaving",
+      "target": "Feminist Theory",
+      "type": "categorized_as"
+    },
+    {
+      "source": "Sadie Plant",
+      "target": "weaving",
+      "type": "created"
+    },
+    {
+      "source": "Gilles Deleuze",
+      "target": "Philosophy",
+      "type": "works_in"
+    },
+    {
+      "source": "F\u00e9lix Guattari",
+      "target": "Philosophy",
+      "type": "works_in"
+    },
+    {
+      "source": "rhizome",
+      "target": "Philosophy",
+      "type": "categorized_as"
+    },
+    {
+      "source": "Gilles Deleuze",
+      "target": "rhizome",
+      "type": "created"
+    },
+    {
+      "source": "F\u00e9lix Guattari",
+      "target": "rhizome",
+      "type": "created"
+    },
+    {
+      "source": "Tim Berners-Lee",
+      "target": "WWW",
+      "type": "works_in"
+    },
+    {
+      "source": "semantic web",
+      "target": "WWW",
+      "type": "categorized_as"
+    },
+    {
+      "source": "Tim Berners-Lee",
+      "target": "Semantics",
+      "type": "works_in"
+    },
+    {
+      "source": "semantic web",
+      "target": "Semantics",
+      "type": "categorized_as"
+    },
+    {
+      "source": "Tim Berners-Lee",
+      "target": "semantic web",
+      "type": "created"
+    },
+    {
+      "source": "Albert-L\u00e1szl\u00f3 Barab\u00e1si",
+      "target": "Graph Theory",
+      "type": "works_in"
+    },
+    {
+      "source": "The New Science of Networks",
+      "target": "Graph Theory",
+      "type": "categorized_as"
+    },
+    {
+      "source": "Albert-L\u00e1szl\u00f3 Barab\u00e1si",
+      "target": "The New Science of Networks",
+      "type": "created"
+    },
+    {
+      "source": "Manuel Castells",
+      "target": "Sociology",
+      "type": "works_in"
+    },
+    {
+      "source": "network society",
+      "target": "Sociology",
+      "type": "categorized_as"
+    },
+    {
+      "source": "Manuel Castells",
+      "target": "Media Theory",
+      "type": "works_in"
+    },
+    {
+      "source": "network society",
+      "target": "Media Theory",
+      "type": "categorized_as"
+    },
+    {
+      "source": "Manuel Castells",
+      "target": "network society",
+      "type": "created"
+    },
+    {
+      "source": "Manuel Castells",
+      "target": "USC",
+      "type": "affiliated_with"
+    },
+    {
+      "source": "USC",
+      "target": "network society",
+      "type": "contributed_to"
+    },
+    {
+      "source": "Alexander Galloway",
+      "target": "Media Theory",
+      "type": "works_in"
+    },
+    {
+      "source": "Eugene Thacker",
+      "target": "Media Theory",
+      "type": "works_in"
+    },
+    {
+      "source": "New York School of Media Theory",
+      "target": "Media Theory",
+      "type": "categorized_as"
+    },
+    {
+      "source": "Alexander Galloway",
+      "target": "New York School of Media Theory",
+      "type": "created"
+    },
+    {
+      "source": "Alexander Galloway",
+      "target": "NYU",
+      "type": "affiliated_with"
+    },
+    {
+      "source": "Alexander Galloway",
+      "target": "The New School",
+      "type": "affiliated_with"
+    },
+    {
+      "source": "Eugene Thacker",
+      "target": "New York School of Media Theory",
+      "type": "created"
+    },
+    {
+      "source": "Eugene Thacker",
+      "target": "NYU",
+      "type": "affiliated_with"
+    },
+    {
+      "source": "Eugene Thacker",
+      "target": "The New School",
+      "type": "affiliated_with"
+    },
+    {
+      "source": "NYU",
+      "target": "New York School of Media Theory",
+      "type": "contributed_to"
+    },
+    {
+      "source": "The New School",
+      "target": "New York School of Media Theory",
+      "type": "contributed_to"
+    },
+    {
+      "source": "OpenStreetMap",
+      "target": "Mapping",
+      "type": "categorized_as"
+    },
+    {
+      "source": "OpenStreetMap",
+      "target": "OpenStreetMap",
+      "type": "contributed_to"
+    },
+    {
+      "source": "Joshua Tenenbaum",
+      "target": "Cognitive Science",
+      "type": "works_in"
+    },
+    {
+      "source": "Theory-Based Bayesian Models",
+      "target": "Cognitive Science",
+      "type": "categorized_as"
+    },
+    {
+      "source": "Joshua Tenenbaum",
+      "target": "Machine Learning",
+      "type": "works_in"
+    },
+    {
+      "source": "Theory-Based Bayesian Models",
+      "target": "Machine Learning",
+      "type": "categorized_as"
+    },
+    {
+      "source": "Joshua Tenenbaum",
+      "target": "Theory-Based Bayesian Models",
+      "type": "created"
+    },
+    {
+      "source": "Joshua Tenenbaum",
+      "target": "MIT",
+      "type": "affiliated_with"
+    },
+    {
+      "source": "MIT",
+      "target": "Theory-Based Bayesian Models",
+      "type": "contributed_to"
+    },
+    {
+      "source": "Satoshi Nakamoto",
+      "target": "Math",
+      "type": "works_in"
+    },
+    {
+      "source": "Bitcoin",
+      "target": "Math",
+      "type": "categorized_as"
+    },
+    {
+      "source": "Satoshi Nakamoto",
+      "target": "Graph Theory",
+      "type": "works_in"
+    },
+    {
+      "source": "Bitcoin",
+      "target": "Graph Theory",
+      "type": "categorized_as"
+    },
+    {
+      "source": "Satoshi Nakamoto",
+      "target": "Bitcoin",
+      "type": "created"
+    },
+    {
+      "source": "Knowledge Graph",
+      "target": "Semantics",
+      "type": "categorized_as"
+    },
+    {
+      "source": "Knowledge Graph",
+      "target": "AI",
+      "type": "categorized_as"
+    },
+    {
+      "source": "Knowledge Graph",
+      "target": "Vector Databases",
+      "type": "categorized_as"
+    },
+    {
+      "source": "Google",
+      "target": "Knowledge Graph",
+      "type": "contributed_to"
+    },
+    {
+      "source": "Tomas Mikolov",
+      "target": "Semantics",
+      "type": "works_in"
+    },
+    {
+      "source": "word2vec",
+      "target": "Semantics",
+      "type": "categorized_as"
+    },
+    {
+      "source": "Tomas Mikolov",
+      "target": "AI",
+      "type": "works_in"
+    },
+    {
+      "source": "word2vec",
+      "target": "AI",
+      "type": "categorized_as"
+    },
+    {
+      "source": "Tomas Mikolov",
+      "target": "word2vec",
+      "type": "created"
+    },
+    {
+      "source": "Tomas Mikolov",
+      "target": "Google",
+      "type": "affiliated_with"
+    },
+    {
+      "source": "Google",
+      "target": "word2vec",
+      "type": "contributed_to"
+    },
+    {
+      "source": "Shannon Mattern",
+      "target": "Media Theory",
+      "type": "works_in"
+    },
+    {
+      "source": "Deep Mapping the Media City",
+      "target": "Media Theory",
+      "type": "categorized_as"
+    },
+    {
+      "source": "Shannon Mattern",
+      "target": "Urbanism",
+      "type": "works_in"
+    },
+    {
+      "source": "Deep Mapping the Media City",
+      "target": "Urbanism",
+      "type": "categorized_as"
+    },
+    {
+      "source": "Shannon Mattern",
+      "target": "Deep Mapping the Media City",
+      "type": "created"
+    },
+    {
+      "source": "Shannon Mattern",
+      "target": "The New School",
+      "type": "affiliated_with"
+    },
+    {
+      "source": "The New School",
+      "target": "Deep Mapping the Media City",
+      "type": "contributed_to"
+    },
+    {
+      "source": "FAISS",
+      "target": "AI",
+      "type": "categorized_as"
+    },
+    {
+      "source": "FAISS",
+      "target": "Vector Databases",
+      "type": "categorized_as"
+    },
+    {
+      "source": "Facebook",
+      "target": "FAISS",
+      "type": "contributed_to"
+    },
+    {
+      "source": "InterPlanetary File System",
+      "target": "WWW",
+      "type": "categorized_as"
+    },
+    {
+      "source": "Protocol Labs",
+      "target": "InterPlanetary File System",
+      "type": "contributed_to"
+    },
+    {
+      "source": "Large Language Models",
+      "target": "AI",
+      "type": "categorized_as"
+    },
+    {
+      "source": "OpenAI",
+      "target": "Large Language Models",
+      "type": "contributed_to"
+    },
+    {
+      "source": "Patrick Lewis",
+      "target": "AI",
+      "type": "works_in"
+    },
+    {
+      "source": "Retrieval Augmented Generation",
+      "target": "AI",
+      "type": "categorized_as"
+    },
+    {
+      "source": "Patrick Lewis",
+      "target": "Vector Databases",
+      "type": "works_in"
+    },
+    {
+      "source": "Retrieval Augmented Generation",
+      "target": "Vector Databases",
+      "type": "categorized_as"
+    },
+    {
+      "source": "Patrick Lewis",
+      "target": "Retrieval Augmented Generation",
+      "type": "created"
+    },
+    {
+      "source": "Patrick Lewis",
+      "target": "Facebook",
+      "type": "affiliated_with"
+    },
+    {
+      "source": "Facebook",
+      "target": "Retrieval Augmented Generation",
+      "type": "contributed_to"
+    },
+    {
+      "source": "Philosophy",
+      "target": "Media Theory",
+      "type": "affiliated_with"
+    },
+    {
+      "source": "Architecture",
+      "target": "Computational Design",
+      "type": "affiliated_with"
+    },
+    {
+      "source": "Mapping",
+      "target": "mental maps",
+      "type": "affiliated_with"
+    },
+    {
+      "source": "Urbanism",
+      "target": "MIT Media Lab",
+      "type": "affiliated_with"
+    }
+  ]
+}
