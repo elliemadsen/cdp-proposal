@@ -105,6 +105,13 @@ with open(input_csv_path, newline="", encoding="utf-8") as csvfile:
             "type": "affiliated_with",
         },
     )
+    edges.append(
+        {
+            "source": "MIT",
+            "target": "MIT Media Lab",
+            "type": "affiliated_with",
+        },
+    )
 
 # Convert to list
 graph_data = {"nodes": list(nodes.values()), "edges": edges}

@@ -52,8 +52,12 @@ h4 {
   font-weight: 100;
 }
 
+h1.l {
+  font-size: 28px;
+}
+
 h1.xl {
-  font-size: 64px;
+  font-size: 48px;
   line-height: 1.2;
 }
 
@@ -136,7 +140,7 @@ h1.title {
   user-select: none;
 }
 
-/* -------- network graph --------*/
+/*  network graph */
 
 #graph {
   width: 80vw;
@@ -186,4 +190,85 @@ h1.title {
 
 .node.field text {
   font-size: 24px;
+}
+
+/* table */
+
+#networks-table {
+  width: 100%;
+  border-collapse: collapse;
+  color: #fff;
+  font-family: sans-serif;
+  background: #111;
+}
+#networks-table th,
+#networks-table td {
+  border: 1px solid #fff;
+  padding: 8px 10px;
+  vertical-align: top;
+  font-weight: lighter;
+}
+
+#networks-table td {
+  font-size: 12px;
+}
+
+#networks-table tr:nth-child(even) {
+  background: #181818;
+}
+#networks-table td:nth-child(5) {
+  width: 40%;
+  max-width: 600px;
+  min-width: 300px;
+  word-break: break-word;
+}
+
+/* book embedding graph */
+
+#embeddingChart {
+  width: 90%;
+  height: 90%;
+  position: relative;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+/* gif */
+
+.gif-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 90%;
+}
+
+.gif {
+  display: block;
+  max-width: 90%;
+  width: 70%;
+}
+
+/* boxes and arrow */
+
+.box-arrow-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 48px;
+  margin: 60px 0;
+}
+
+.space-box {
+  border: 2px solid #fff;
+  padding: 48px 36px;
+  min-width: 300px;
+  min-height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3em;
+  font-family: inherit;
+  text-align: center;
+  border-radius: 10px;
 }

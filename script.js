@@ -13,20 +13,6 @@ document.addEventListener("DOMContentLoaded", () => {
     current = parseInt(saved, 10);
   }
 
-  //   function updateModules() {
-  //     modules.forEach((mod, i) => {
-  //       mod.classList.remove("active", "above", "below");
-  //       if (i === current) mod.classList.add("active");
-  //       else if (i < current) mod.classList.add("above");
-  //       else mod.classList.add("below");
-  //     });
-  //     // Save current index
-  //     localStorage.setItem("currentModule", current);
-  //   }
-
-  //   updateModules();
-  // });
-
   function updateModules() {
     modules.forEach((mod, i) => {
       mod.classList.remove("active", "above", "below");
@@ -51,7 +37,8 @@ document.addEventListener("DOMContentLoaded", () => {
       (e) => {
         if (!mod.classList.contains("active")) return;
         const atTop = mod.scrollTop === 0;
-        const atBottom = mod.scrollHeight - mod.scrollTop === mod.clientHeight;
+        const atBottom =
+          Math.abs(mod.scrollHeight - mod.scrollTop - mod.clientHeight) < 2;
         if (e.deltaY < 0 && atTop && current > 0) {
           // Scroll up to previous module
           current--;
@@ -205,3 +192,29 @@ document.addEventListener("DOMContentLoaded", () => {
     { passive: false }
   );
 });
+
+// Load and display the networks table from CSV
+fetch("data_processing/index-of-networks.csv")
+  .then((r) => r.text())
+  .then((csv) => {
+    const lines = csv.trim().split("\n");
+    const headers = lines[0].replace(/\r/g, "").split(",");
+    // Indices of columns to keep (without Wikipedia and Primary Source)
+    const keep = [0, 1, 2, 3, 4, 5];
+    const tbody = document.querySelector("#networks-table tbody");
+    for (let i = 1; i < lines.length; i++) {
+      const row = lines[i]
+        .replace(/\r/g, "")
+        .split(/,(?=(?:(?:[^"]*"){2})*[^"]*$)/); // handles commas in quotes
+      const tr = document.createElement("tr");
+      keep.forEach((idx) => {
+        const td = document.createElement("td");
+        let val = row[idx]
+          ? row[idx].replace(/^"|"$/g, "").replace(/""/g, '"')
+          : "";
+        td.textContent = val;
+        tr.appendChild(td);
+      });
+      tbody.appendChild(tr);
+    }
+  });
