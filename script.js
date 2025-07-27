@@ -191,6 +191,34 @@ document.addEventListener("DOMContentLoaded", () => {
     },
     { passive: false }
   );
+
+  // Image popup for .image-wrap-gallery
+  document.querySelectorAll(".image-wrap-gallery img").forEach((img) => {
+    img.addEventListener("click", function () {
+      // Create overlay
+      const overlay = document.createElement("div");
+      overlay.className = "img-popup-overlay";
+      overlay.innerHTML = `
+        <div class="img-popup-content">
+          <img src="${this.src}" alt="${this.alt}" />
+        </div>
+      `;
+      document.body.appendChild(overlay);
+
+      // Close on click outside image
+      overlay.addEventListener("click", function (e) {
+        if (e.target === overlay) overlay.remove();
+      });
+
+      // Optional: close on ESC key
+      document.addEventListener("keydown", function escListener(ev) {
+        if (ev.key === "Escape") {
+          overlay.remove();
+          document.removeEventListener("keydown", escListener);
+        }
+      });
+    });
+  });
 });
 
 // Load and display the networks table from CSV

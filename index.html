@@ -74,6 +74,7 @@
             <!-- table rows inserted here by script.js -->
           </tbody>
         </table>
+        <div style="height: 400px"></div>
       </section>
 
       <!-- network graph -->
@@ -124,30 +125,24 @@
         </div>
       </section>
 
-      <!-- kmeans gif -->
-      <!-- <section class="module">
-        <h1 class="xl">clustered 3d embedding space</h1>
-        <div class="gif-container">
-          <img
-            class="gif"
-            src="img/k-clusters.gif"
-            alt="Animated word vec embedding space gif"
-          />
-        </div>
-      </section> -->
-
       <!-- book graph -->
       <section class="module">
         <h1 class="xl">personal project: 2d book graph</h1>
         <script src="https://d3js.org/d3.v6.min.js"></script>
         <script src="book-script.js"></script>
         <div id="embeddingChart"></div>
+        <div style="height: 200px"></div>
       </section>
 
       <!-- embedding :: physical space -->
       <section class="module">
         <div class="box-arrow-row">
-          <div class="space-box">embedding space</div>
+          <div class="space-box">
+            <h1 class="xl">embedding space</h1>
+            <h1 class="l">semantic distance</h1>
+            <h1 class="l">n-dimensional</h1>
+            <h1 class="l">vectors & nodes</h1>
+          </div>
           <div class="arrow-col">
             <svg
               class="arrow-svg"
@@ -168,7 +163,12 @@
               <polygon points="84,8 84,24 96,16" fill="white" />
             </svg>
           </div>
-          <div class="space-box">physical space</div>
+          <div class="space-box">
+            <h1 class="xl">world space</h1>
+            <h1 class="l">physical distance</h1>
+            <h1 class="l">3-dimensional</h1>
+            <h1 class="l">paths & places</h1>
+          </div>
         </div>
       </section>
 
@@ -211,20 +211,113 @@
         <h1 class="xl">Stéphane Mallarmé</h1>
       </section>
 
+      <!-- rhetorical argument -->
+      <section class="module">
+        <h1 class="xxl">rhetorical argument</h1>
+        <h1 class="xl">___insert rhetorical argument here___</h1>
+      </section>
+
       <!-- precedent references -->
       <section class="module">
-        <h1 class="xxl">precedent references</h1>
+        <div style="display: flex; align-items: baseline; gap: 1em">
+          <h1 style="margin: 0">community of practice</h1>
+          <h1 class="xxl" style="margin: 0">precedent references</h1>
+        </div>
+        <div class="image-link-gallery">
+          <!-- Critical Atlas of Internet -->
+          <div class="image-link-item">
+            <a href="https://louisedrulhe.fr/internet-atlas/" target="_blank">
+              <img
+                src="img/internet-atlas.png"
+                alt="Critical Atlas of Internet"
+              />
+            </a>
+            <div class="image-link-title">Critical Atlas of Internet</div>
+          </div>
+          <!-- Digital Garden -->
+          <div class="image-link-item">
+            <a href="https://digitalgarden.hypha.coop/" target="_blank">
+              <img src="img/digitalgarden.png" alt="Digital Garden" />
+            </a>
+            <div class="image-link-title">Digital Garden</div>
+          </div>
+          <!-- Invisible Infras -->
+          <div class="image-link-item">
+            <a
+              href="https://labs.rs/en/invisible-infrastructures-data-flow/"
+              target="_blank"
+            >
+              <img
+                src="img/invisible-infras.png"
+                alt="Invisible Infrastructures : Data Flow"
+              />
+            </a>
+            <div class="image-link-title">
+              Invisible Infrastructures : Data Flow
+            </div>
+          </div>
+          <!-- The Internet Map-->
+          <div class="image-link-item">
+            <a href="https://internet-map.net/" target="_blank">
+              <img src="img/internet-map.png" alt="The Internet Map" />
+            </a>
+            <div class="image-link-title">The Internet Map</div>
+          </div>
+          <!-- SF Gvmt Graph -->
+          <div class="image-link-item">
+            <a href="https://sfgov.civlab.org/mayor" target="_blank">
+              <img src="img/sf-gvmt.png" alt="SF Government Graph" />
+            </a>
+            <div class="image-link-title">SF Government Graph</div>
+          </div>
+        </div>
+        <div style="height: 200px"></div>
       </section>
 
       <!-- visual representation -->
       <section class="module">
         <h1 class="xxl">visual representation</h1>
+        <div class="image-wrap-gallery">
+          <img src="img/img1.jpg" alt="Example 1" />
+          <img src="img/img2.jpg" alt="Example 2" />
+          <img src="img/img3.jpg" alt="Example 3" />
+          <img src="img/img10.jpg" alt="Example 10" />
+          <img src="img/img4.jpg" alt="Example 4" />
+          <img src="img/img6.jpg" alt="Example 6" />
+          <img src="img/img7.jpg" alt="Example 7" />
+          <img src="img/img8.jpg" alt="Example 8" />
+          <img src="img/img5.jpg" alt="Example 5" />
+          <img src="img/img9.jpg" alt="Example 9" />
+          <img src="img/img12.jpg" alt="Example 12" />
+          <img src="img/img13.jpg" alt="Example 13" />
+          <img src="img/img11.jpg" alt="Example 11" />
+          <img src="img/img14.jpg" alt="Example 14" />
+          <img src="img/img15.jpg" alt="Example 15" />
+        </div>
+        <div style="height: 200px"></div>
       </section>
 
-      <!-- rhetorical argument -->
+      <!-- data sources -->
       <section class="module">
-        <h1 class="xxl">rhetorical argument</h1>
-        <h1 class="xl">___insert rhetorical argument here___</h1>
+        <div style="display: flex; align-items: baseline; gap: 1em">
+          <h1 style="margin: 0">potential</h1>
+          <h1 class="xxl" style="margin: 0">data sources</h1>
+        </div>
+        <h1 class="right-align xl">
+          satellite images <br />
+          hypertext webscraping <br />
+          3d models <br />
+          lidar data <br />
+          geotagged social media <br />
+          public transit data <br />
+          open street map <br />
+          city open data portals <br />
+          building footprints <br />
+          google maps apis <br />
+          streetview images <br />
+          ip networks
+        </h1>
+        <div style="height: 200px"></div>
       </section>
 
       <!-- methods -->
