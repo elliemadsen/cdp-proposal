@@ -7,6 +7,8 @@ body {
   overflow: hidden;
 }
 
+/* page modules */
+
 #modules {
   height: 100vh;
   width: 100vw;
@@ -43,6 +45,8 @@ body {
 .module.below {
   transform: translateY(100vh);
 }
+
+/* text */
 
 h1,
 h2,
@@ -124,7 +128,7 @@ h1.title {
   left: 50%;
   transform: translateX(-50%);
   width: 20px;
-  height: 120px;
+  height: 50px;
   background: radial-gradient(
     circle,
     rgba(255, 255, 255, 0.95) 55%,
@@ -234,20 +238,12 @@ h1.title {
   overflow: hidden;
 }
 
-/* gif */
-
-.gif-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
+#networkEmbeddingChart {
+  width: 90%;
   height: 90%;
-}
-
-.gif {
-  display: block;
-  max-width: 90%;
-  width: 70%;
+  position: relative;
+  border-radius: 20px;
+  overflow: hidden;
 }
 
 /* boxes and arrow */
@@ -273,7 +269,7 @@ h1.title {
   border-radius: 10px;
 }
 
-/* gallery */
+/* img gallery w popup */
 
 .image-wrap-gallery {
   display: flex;
@@ -375,14 +371,9 @@ h1.title {
   border-radius: 12px;
 }
 
-.hnsw-img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-}
+/* general flex */
 
-.three-col-flex {
+.col-flex {
   display: flex;
   flex-direction: row;
   gap: 32px;
@@ -393,18 +384,22 @@ h1.title {
 }
 
 .col {
-  border-radius: 12px;
   padding: 32px 20px;
   min-height: 200px;
-  box-sizing: border-box;
+  max-width: 300px;
 }
 
-.col-narrow {
-  flex: 1 1 0;
-  max-width: 220px;
+/* images etc */
+
+.gif {
+  display: block;
+  max-width: 100%;
+  width: 100%;
 }
 
-.col-wide {
-  flex: 2 1 0;
-  max-width: 600px;
+.hnsw-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
 }
