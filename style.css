@@ -173,16 +173,16 @@ h1.title {
   stroke-width: 3px;
 }
 .node.person circle {
-  fill: #e4f6e2;
+  fill: #e3c7e0;
 }
 .node.institution circle {
-  fill: #ffedce;
+  fill: #c5ddcd;
 }
 .node.field circle {
   fill: #ffffff;
 }
 .node.contribution circle {
-  fill: #e2fbff;
+  fill: #cae9ec;
 }
 .node:hover circle {
   stroke: rgb(0, 0, 0);
@@ -190,11 +190,11 @@ h1.title {
 }
 
 .node.person text {
-  font-size: 10px;
+  font-size: 9px;
 }
 
 .node.field text {
-  font-size: 24px;
+  font-size: 32px;
 }
 
 /* table */

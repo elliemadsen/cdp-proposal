@@ -122,80 +122,124 @@ function createNetworkScatterPlot(books) {
   book_width = 40;
   book_height = book_width * 1.5;
 
-  // Add book covers
+  // Create a force simulation to prevent overlap
+  const simulation = d3
+    .forceSimulation(books)
+    .force(
+      "x",
+      d3.forceX().x((d) => d.x)
+    )
+    .force(
+      "y",
+      d3.forceY().y((d) => d.y)
+    )
+    .force("collide", d3.forceCollide(book_width * 1.8))
+    .stop();
+
+  for (let i = 0; i < 80; ++i) simulation.tick();
+
+  // draw the books
   books.forEach((book, i) => {
-    if (book.x !== 0 && book.y !== 0) {
-      // draw lines to nearest neighbors
-      const neighbors = books
-        .map((other, j) => ({
-          index: j,
-          dist: Math.hypot(book.x - other.x, book.y - other.y),
-        }))
-        .filter((n) => n.index !== i)
-        .sort((a, b) => a.dist - b.dist)
-        .slice(0, 3); // n nearest neighbors
-      neighbors.forEach((n) => {
-        imageGroup
-          .append("line")
-          .attr("x1", book.x)
-          .attr("y1", book.y)
-          .attr("x2", books[n.index].x)
-          .attr("y2", books[n.index].y)
-          .attr("stroke", "grey")
-          .attr("stroke-width", 1)
-          .attr("opacity", 0.5)
-          .attr("z-index", -1000);
+    // draw lines to nearest neighbors
+    const neighbors = books
+      .map((other, j) => ({
+        index: j,
+        dist: Math.hypot(book.x - other.x, book.y - other.y),
+      }))
+      .filter((n) => n.index !== i)
+      .sort((a, b) => a.dist - b.dist)
+      .slice(0, 3); // n nearest neighbors
+    neighbors.forEach((n) => {
+      imageGroup
+        .append("line")
+        .attr("x1", book.x)
+        .attr("y1", book.y)
+        .attr("x2", books[n.index].x)
+        .attr("y2", books[n.index].y)
+        .attr("stroke", "grey")
+        .attr("stroke-width", 1)
+        .attr("opacity", 0.5);
+    });
+  });
+
+  books.forEach((book) => {
+    // get covers from open library
+    imageGroup
+      .append("image")
+      .attr(
+        "xlink:href",
+        `https://covers.openlibrary.org/b/isbn/${book.isbn}-L.jpg`
+      )
+      .attr("x", book.x - book_width / 2)
+      .attr("y", book.y - book_height / 2)
+      .attr("width", book_width)
+      .attr("height", book_height)
+      .attr("alt", book.title)
+      .on("mouseover", function () {
+        d3.select(this).style("opacity", 0.7); // Hover effect
+        showBookDetails(book.description);
+      })
+      .on("mouseout", function () {
+        d3.select(this).style("opacity", 1);
+        hideBookDetails(book.title);
       });
 
-      // get covers from open library
-      imageGroup
-        .append("image")
-        .attr(
-          "xlink:href",
-          `https://covers.openlibrary.org/b/isbn/${book.isbn}-L.jpg`
-        )
-        .attr("x", book.x - book_width / 2)
-        .attr("y", book.y - book_height / 2)
-        .attr("width", book_width)
-        .attr("height", book_height)
-        .attr("alt", book.title)
-        .on("mouseover", function () {
-          d3.select(this).style("opacity", 0.7); // Hover effect
-          showBookDetails(book.description);
-        })
-        .on("mouseout", function () {
-          d3.select(this).style("opacity", 1);
-          hideBookDetails(book.title);
-        });
-
-      // add description text below the cover
-      imageGroup
-        .append("text")
-        .attr("x", book.x)
-        .attr("y", book.y + book_height / 2 + 16)
-        .attr("text-anchor", "middle")
-        .attr("font-size", "14px")
-        .attr("fill", "white")
-        .text(book.title);
-
-      imageGroup
-        .append("text")
-        .attr("x", book.x)
-        .attr("y", book.y + book_height / 2 + 32)
-        .attr("text-anchor", "middle")
-        .attr("font-size", "12px")
-        .attr("fill", "white")
-        .text(book.author);
-
-      imageGroup
-        .append("text")
-        .attr("x", book.x)
-        .attr("y", book.y + book_height / 2 + 48)
-        .attr("text-anchor", "middle")
-        .attr("font-size", "12px")
-        .attr("fill", "white")
-        .text(book.year);
+    // add description text below the cover
+    function wrapText(text, maxChars) {
+      const words = text.split(" ");
+      const lines = [];
+      let line = "";
+      words.forEach((word) => {
+        if ((line + word).length > maxChars) {
+          lines.push(line.trim());
+          line = word + " ";
+        } else {
+          line += word + " ";
+        }
+      });
+      if (line) lines.push(line.trim());
+      return lines;
     }
+
+    // Replace your imageGroup.append("text") for title with:
+    const titleLines = wrapText(book.title, 20); // 20 chars per line
+    const lineSpacing = 16; // 16px line height
+    const titleYStart = book.y + book_height / 2 + lineSpacing;
+    const titleYEnd = titleYStart + titleLines.length * lineSpacing; // 16px line height
+
+    const titleText = imageGroup
+      .append("text")
+      .attr("x", book.x)
+      .attr("y", titleYStart)
+      .attr("text-anchor", "middle")
+      .attr("font-size", "14px")
+      .attr("fill", "white");
+
+    titleLines.forEach((line, i) => {
+      titleText
+        .append("tspan")
+        .attr("x", book.x)
+        .attr("y", titleYStart + i * lineSpacing) // 16px line spacing
+        .text(line);
+    });
+
+    imageGroup
+      .append("text")
+      .attr("x", book.x)
+      .attr("y", titleYEnd)
+      .attr("text-anchor", "middle")
+      .attr("font-size", "12px")
+      .attr("fill", "white")
+      .text(book.author);
+
+    imageGroup
+      .append("text")
+      .attr("x", book.x)
+      .attr("y", titleYEnd + lineSpacing)
+      .attr("text-anchor", "middle")
+      .attr("font-size", "12px")
+      .attr("fill", "white")
+      .text(book.year);
   });
 
   // Popup to show book titles on hover

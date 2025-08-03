@@ -13,15 +13,6 @@ function drawGraph(graph) {
   // Add a group for zoom/pan
   const container = svg.append("g");
 
-  // Color by type
-  const typeColor = {
-    person: "#4cc3fa",
-    institution: "#f7c873",
-    field: "#a1e887",
-    contribution: "#e87d7d",
-    topic: "#b48ef7",
-  };
-
   // Simulation
   const simulation = d3
     .forceSimulation(graph.nodes)
@@ -30,12 +21,12 @@ function drawGraph(graph) {
       d3
         .forceLink(graph.edges)
         .id((d) => d.id)
-        .distance(300)
+        .distance(400)
         .strength(2)
     )
     .force("charge", d3.forceManyBody().strength(-200))
     .force("center", d3.forceCenter(width / 2, height / 2))
-    .force("collision", d3.forceCollide().radius(100));
+    .force("collision", d3.forceCollide().radius(120));
 
   // Draw links
   const link = container
@@ -57,11 +48,11 @@ function drawGraph(graph) {
   node
     .append("circle")
     .attr("r", (d) => {
-      if (d.type === "field") return 90;
-      if (d.type === "person") return 40;
+      if (d.type === "field") return 110;
+      if (d.type === "institution") return 50;
+      if (d.type === "person") return 30;
       return 60;
     })
-    .attr("fill", (d) => typeColor[d.type] || "#fff")
     .on("click", (event, d) => {
       if (d.link) window.open(d.link, "_blank");
     })
@@ -90,14 +81,19 @@ function drawGraph(graph) {
     .attr("text-anchor", "middle")
     .attr("dy", 0)
     .each(function (d) {
-      const lines = wrapText(d.id, 11); // adjust 11 for your circle size
-      const lineHeight = d.type === "field" ? 28 : 16; // <-- more space for field nodes
-      const startY = -((lines.length - 1) / 2) * lineHeight + 6;
+      const lines = wrapText(d.id, 11); // adjust 11 for circle size
+      const lineHeight = (d) => {
+        if (d.type === "field") return 28;
+        if (d.type === "person") return 12;
+        return 18;
+      };
+      const lh = lineHeight(d);
+      const startY = -((lines.length - 1) / 2) * lh + 6;
       lines.forEach((line, i) => {
         d3.select(this)
           .append("tspan")
           .attr("x", 0)
-          .attr("y", startY + i * lineHeight)
+          .attr("y", startY + i * lh)
           .text(line);
       });
     });

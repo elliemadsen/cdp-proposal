@@ -33,6 +33,18 @@
       "type": "field"
     },
     {
+      "id": "Walter Christaller",
+      "type": "person"
+    },
+    {
+      "id": "Central Place Theory",
+      "type": "contribution"
+    },
+    {
+      "id": "Urbanism",
+      "type": "field"
+    },
+    {
       "id": "Warren McCulloch",
       "type": "person"
     },
@@ -49,7 +61,7 @@
       "type": "institution"
     },
     {
-      "id": "Neuroscience",
+      "id": "Machine Learning",
       "type": "field"
     },
     {
@@ -65,15 +77,11 @@
       "type": "field"
     },
     {
-      "id": "Jane Jacobs",
-      "type": "person"
-    },
-    {
-      "id": "The Death and Life of Great American Cities",
+      "id": "Quantitative Revolution in Geography",
       "type": "contribution"
     },
     {
-      "id": "Urbanism",
+      "id": "Mapping",
       "type": "field"
     },
     {
@@ -89,8 +97,12 @@
       "type": "field"
     },
     {
-      "id": "Machine Learning",
-      "type": "field"
+      "id": "Jane Jacobs",
+      "type": "person"
+    },
+    {
+      "id": "The Death and Life of Great American Cities",
+      "type": "contribution"
     },
     {
       "id": "Marshall McLuhan",
@@ -113,6 +125,18 @@
       "type": "field"
     },
     {
+      "id": "Melvin Webber",
+      "type": "person"
+    },
+    {
+      "id": "Non-Place Urban Realm",
+      "type": "contribution"
+    },
+    {
+      "id": "UC Berkeley",
+      "type": "institution"
+    },
+    {
       "id": "Ted Nelson",
       "type": "person"
     },
@@ -131,10 +155,6 @@
     {
       "id": "A City is Not a Tree",
       "type": "contribution"
-    },
-    {
-      "id": "UC Berkeley",
-      "type": "institution"
     },
     {
       "id": "Andries van Dam",
@@ -158,18 +178,6 @@
     },
     {
       "id": "WWW",
-      "type": "field"
-    },
-    {
-      "id": "Elizabeth Fisher",
-      "type": "person"
-    },
-    {
-      "id": "Carrier Bag Theory of Evolution",
-      "type": "contribution"
-    },
-    {
-      "id": "Feminist Theory",
       "type": "field"
     },
     {
@@ -201,11 +209,11 @@
       "type": "person"
     },
     {
-      "id": "MIT Media Lab",
-      "type": "contribution"
+      "id": "MIT Architecture Machine Group",
+      "type": "institution"
     },
     {
-      "id": "MIT Architecture Machine Group",
+      "id": "MIT Media Lab",
       "type": "institution"
     },
     {
@@ -253,6 +261,10 @@
       "type": "field"
     },
     {
+      "id": "Feminist Theory",
+      "type": "field"
+    },
+    {
       "id": "HyperCard",
       "type": "contribution"
     },
@@ -267,10 +279,6 @@
     {
       "id": "ESRI",
       "type": "institution"
-    },
-    {
-      "id": "Mapping",
-      "type": "field"
     },
     {
       "id": "World Wide Web",
@@ -317,6 +325,18 @@
       "type": "contribution"
     },
     {
+      "id": "Suzanne Simard",
+      "type": "person"
+    },
+    {
+      "id": "Wood Wide Web",
+      "type": "contribution"
+    },
+    {
+      "id": "Ecology",
+      "type": "field"
+    },
+    {
       "id": "Gilles Deleuze",
       "type": "person"
     },
@@ -333,6 +353,18 @@
       "type": "field"
     },
     {
+      "id": "Duncan J. Watts",
+      "type": "person"
+    },
+    {
+      "id": "Steven Strogatz",
+      "type": "person"
+    },
+    {
+      "id": "small world networks",
+      "type": "contribution"
+    },
+    {
       "id": "semantic web",
       "type": "contribution"
     },
@@ -345,7 +377,7 @@
       "type": "person"
     },
     {
-      "id": "The New Science of Networks",
+      "id": "scale-free networks",
       "type": "contribution"
     },
     {
@@ -377,7 +409,7 @@
       "type": "institution"
     },
     {
-      "id": "OpenStreetMap",
+      "id": "Open Street Map",
       "type": "contribution"
     },
     {
@@ -389,15 +421,19 @@
       "type": "contribution"
     },
     {
-      "id": "Cognitive Science",
-      "type": "field"
-    },
-    {
       "id": "Satoshi Nakamoto",
       "type": "person"
     },
     {
       "id": "Bitcoin",
+      "type": "contribution"
+    },
+    {
+      "id": "Gephi",
+      "type": "contribution"
+    },
+    {
+      "id": "Circuitscape",
       "type": "contribution"
     },
     {
@@ -459,6 +495,10 @@
     {
       "id": "Retrieval Augmented Generation",
       "type": "contribution"
+    },
+    {
+      "id": "Satellite Embeddings",
+      "type": "contribution"
     }
   ],
   "edges": [
@@ -513,18 +553,33 @@
       "type": "created"
     },
     {
+      "source": "Walter Christaller",
+      "target": "Urbanism",
+      "type": "works_in"
+    },
+    {
+      "source": "Central Place Theory",
+      "target": "Urbanism",
+      "type": "categorized_as"
+    },
+    {
+      "source": "Walter Christaller",
+      "target": "Central Place Theory",
+      "type": "created"
+    },
+    {
       "source": "Warren McCulloch",
-      "target": "Neuroscience",
+      "target": "Machine Learning",
       "type": "works_in"
     },
     {
       "source": "Walter Pitts",
-      "target": "Neuroscience",
+      "target": "Machine Learning",
       "type": "works_in"
     },
     {
       "source": "neural networks",
-      "target": "Neuroscience",
+      "target": "Machine Learning",
       "type": "categorized_as"
     },
     {
@@ -583,19 +638,9 @@
       "type": "created"
     },
     {
-      "source": "Jane Jacobs",
-      "target": "Urbanism",
-      "type": "works_in"
-    },
-    {
-      "source": "The Death and Life of Great American Cities",
-      "target": "Urbanism",
+      "source": "Quantitative Revolution in Geography",
+      "target": "Mapping",
       "type": "categorized_as"
-    },
-    {
-      "source": "Jane Jacobs",
-      "target": "The Death and Life of Great American Cities",
-      "type": "created"
     },
     {
       "source": "Frank Rosenblatt",
@@ -620,6 +665,21 @@
     {
       "source": "Frank Rosenblatt",
       "target": "perceptron",
+      "type": "created"
+    },
+    {
+      "source": "Jane Jacobs",
+      "target": "Urbanism",
+      "type": "works_in"
+    },
+    {
+      "source": "The Death and Life of Great American Cities",
+      "target": "Urbanism",
+      "type": "categorized_as"
+    },
+    {
+      "source": "Jane Jacobs",
+      "target": "The Death and Life of Great American Cities",
       "type": "created"
     },
     {
@@ -660,6 +720,31 @@
     {
       "source": "University of Toronto",
       "target": "the medium is the message",
+      "type": "contributed_to"
+    },
+    {
+      "source": "Melvin Webber",
+      "target": "Urbanism",
+      "type": "works_in"
+    },
+    {
+      "source": "Non-Place Urban Realm",
+      "target": "Urbanism",
+      "type": "categorized_as"
+    },
+    {
+      "source": "Melvin Webber",
+      "target": "Non-Place Urban Realm",
+      "type": "created"
+    },
+    {
+      "source": "Melvin Webber",
+      "target": "UC Berkeley",
+      "type": "affiliated_with"
+    },
+    {
+      "source": "UC Berkeley",
+      "target": "Non-Place Urban Realm",
       "type": "contributed_to"
     },
     {
@@ -748,21 +833,6 @@
       "type": "contributed_to"
     },
     {
-      "source": "Elizabeth Fisher",
-      "target": "Feminist Theory",
-      "type": "works_in"
-    },
-    {
-      "source": "Carrier Bag Theory of Evolution",
-      "target": "Feminist Theory",
-      "type": "categorized_as"
-    },
-    {
-      "source": "Elizabeth Fisher",
-      "target": "Carrier Bag Theory of Evolution",
-      "type": "created"
-    },
-    {
       "source": "Bill Hillier",
       "target": "Urbanism",
       "type": "works_in"
@@ -818,24 +888,14 @@
       "type": "works_in"
     },
     {
-      "source": "MIT Media Lab",
-      "target": "Computational Design",
-      "type": "categorized_as"
-    },
-    {
-      "source": "Nicholas Negroponte",
-      "target": "MIT Media Lab",
-      "type": "created"
-    },
-    {
       "source": "Nicholas Negroponte",
       "target": "MIT Architecture Machine Group",
       "type": "affiliated_with"
     },
     {
-      "source": "MIT Architecture Machine Group",
+      "source": "Nicholas Negroponte",
       "target": "MIT Media Lab",
-      "type": "contributed_to"
+      "type": "affiliated_with"
     },
     {
       "source": "Tim Berners-Lee",
@@ -1103,6 +1163,21 @@
       "type": "created"
     },
     {
+      "source": "Suzanne Simard",
+      "target": "Ecology",
+      "type": "works_in"
+    },
+    {
+      "source": "Wood Wide Web",
+      "target": "Ecology",
+      "type": "categorized_as"
+    },
+    {
+      "source": "Suzanne Simard",
+      "target": "Wood Wide Web",
+      "type": "created"
+    },
+    {
       "source": "Gilles Deleuze",
       "target": "Philosophy",
       "type": "works_in"
@@ -1125,6 +1200,31 @@
     {
       "source": "F\u00e9lix Guattari",
       "target": "rhizome",
+      "type": "created"
+    },
+    {
+      "source": "Duncan J. Watts",
+      "target": "Graph Theory",
+      "type": "works_in"
+    },
+    {
+      "source": "Steven Strogatz",
+      "target": "Graph Theory",
+      "type": "works_in"
+    },
+    {
+      "source": "small world networks",
+      "target": "Graph Theory",
+      "type": "categorized_as"
+    },
+    {
+      "source": "Duncan J. Watts",
+      "target": "small world networks",
+      "type": "created"
+    },
+    {
+      "source": "Steven Strogatz",
+      "target": "small world networks",
       "type": "created"
     },
     {
@@ -1158,13 +1258,13 @@
       "type": "works_in"
     },
     {
-      "source": "The New Science of Networks",
+      "source": "scale-free networks",
       "target": "Graph Theory",
       "type": "categorized_as"
     },
     {
       "source": "Albert-L\u00e1szl\u00f3 Barab\u00e1si",
-      "target": "The New Science of Networks",
+      "target": "scale-free networks",
       "type": "created"
     },
     {
@@ -1258,24 +1358,14 @@
       "type": "contributed_to"
     },
     {
-      "source": "OpenStreetMap",
+      "source": "Open Street Map",
       "target": "Mapping",
       "type": "categorized_as"
     },
     {
-      "source": "OpenStreetMap",
-      "target": "OpenStreetMap",
+      "source": "Open Street Map",
+      "target": "Open Street Map",
       "type": "contributed_to"
-    },
-    {
-      "source": "Joshua Tenenbaum",
-      "target": "Cognitive Science",
-      "type": "works_in"
-    },
-    {
-      "source": "Theory-Based Bayesian Models",
-      "target": "Cognitive Science",
-      "type": "categorized_as"
     },
     {
       "source": "Joshua Tenenbaum",
@@ -1326,6 +1416,21 @@
       "source": "Satoshi Nakamoto",
       "target": "Bitcoin",
       "type": "created"
+    },
+    {
+      "source": "Gephi",
+      "target": "Graph Theory",
+      "type": "categorized_as"
+    },
+    {
+      "source": "Circuitscape",
+      "target": "Mapping",
+      "type": "categorized_as"
+    },
+    {
+      "source": "Circuitscape",
+      "target": "Ecology",
+      "type": "categorized_as"
     },
     {
       "source": "Knowledge Graph",
@@ -1488,6 +1593,21 @@
       "type": "contributed_to"
     },
     {
+      "source": "Satellite Embeddings",
+      "target": "Mapping",
+      "type": "categorized_as"
+    },
+    {
+      "source": "Satellite Embeddings",
+      "target": "AI",
+      "type": "categorized_as"
+    },
+    {
+      "source": "Google",
+      "target": "Satellite Embeddings",
+      "type": "contributed_to"
+    },
+    {
       "source": "Philosophy",
       "target": "Media Theory",
       "type": "affiliated_with"
@@ -1505,6 +1625,16 @@
     {
       "source": "Urbanism",
       "target": "MIT Media Lab",
+      "type": "affiliated_with"
+    },
+    {
+      "source": "MIT",
+      "target": "MIT Media Lab",
+      "type": "affiliated_with"
+    },
+    {
+      "source": "rhizome",
+      "target": "Wood Wide Web",
       "type": "affiliated_with"
     }
   ]
