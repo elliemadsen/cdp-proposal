@@ -88,10 +88,10 @@ function createNetworkScatterPlot(books) {
 
   // On the first load, center the plot within the container
   if (isNetworkInitialLoad) {
-    const initialScale = 0.6;
+    const initialScale = 1;
     networkTransformState = d3.zoomIdentity
       .scale(initialScale)
-      .translate(200, 0);
+      .translate(100, 0);
     isNetworkInitialLoad = false;
   }
 

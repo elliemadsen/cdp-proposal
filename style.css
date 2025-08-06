@@ -71,7 +71,7 @@ h1.xxl {
 }
 
 h1.title {
-  font-size: 200px;
+  font-size: 300px;
   line-height: 0.6;
   text-align: center;
   margin-top: 20vh;
@@ -94,6 +94,24 @@ h1.title {
   bottom: 10vh;
   left: auto;
   top: auto;
+}
+
+.center-within {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 70%;
+  height: auto;
+}
+
+.w70 {
+  width: 70%;
+}
+
+.small-brackets {
+  font-size: 0.6em;
+  opacity: 0.7;
 }
 
 /* scroll bar */
@@ -281,7 +299,7 @@ h1.title {
 }
 
 .image-wrap-gallery img {
-  height: 180px;
+  height: 250px;
   width: auto;
   max-width: 100%;
   border-radius: 12px;
@@ -338,12 +356,12 @@ h1.title {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 250px;
+  width: 400px;
 }
 
 .image-link-item img {
-  height: 250px;
-  width: 250px;
+  height: 400px;
+  width: 400px;
   border-radius: 10px;
   border: 2px solid #fff;
   background: #111;
@@ -366,7 +384,7 @@ h1.title {
 .full-screen-img {
   width: 100%;
   height: auto;
-  max-height: 80vh;
+  max-height: 100vh;
   object-fit: cover;
   border-radius: 12px;
 }
@@ -389,17 +407,23 @@ h1.title {
   max-width: 300px;
 }
 
+.col-wide {
+  padding: 32px 20px;
+  min-height: 200px;
+  width: 50%;
+}
+
 /* images etc */
 
 .gif {
   display: block;
-  max-width: 100%;
-  width: 100%;
+  max-width: 80%;
+  width: 80%;
 }
 
 .hnsw-img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 80%;
+  width: 60%;
 }
